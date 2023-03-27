@@ -288,7 +288,7 @@ Step 25: Complete all the required fields for the "System" and "Admin User" sett
 <img src="https://static.wixstatic.com/media/2ebf04_373f0f0c369c46d692ca831b96a0c5db~mv2.png" height="50%" width="50%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-Step 26: Download and install <a href="https://heidisql.com/instalers/HeidiSQL_12.3.0.6589_setup.exe">HeidiSQL</a>.
+Step 26: Download and install <a href="https://www.heidisql.com/installers/HeidiSQL_12.3.0.6589_Setup.exe">HeidiSQL</a>.
 </p>
 <br />
 
