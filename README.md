@@ -17,14 +17,7 @@ This tutorial provides a technical overview of the necessary conditions and inst
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop Connection
-- osTicket
 - Internet Information Services (IIS)
-- PHP Manager for IIS
-- Rewrite Module
-- PHP 7.3.8
-- Microsoft Visual C++ Redistributable
-- MySQL 5.5.62
-- HeidiSQL
 
 <h2>Operating System Used </h2>
 
