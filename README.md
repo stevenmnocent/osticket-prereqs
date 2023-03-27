@@ -16,8 +16,15 @@ This tutorial provides a technical overview of the necessary conditions and inst
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
+- Remote Desktop Connection
+- osTicket
 - Internet Information Services (IIS)
+- PHP Manager for IIS
+- Rewrite Module
+- PHP 7.3.8
+- Microsoft Visual C++ Redistributable
+- MySQL 5.5.62
+- HeidiSQL
 
 <h2>Operating Systems Used </h2>
 
