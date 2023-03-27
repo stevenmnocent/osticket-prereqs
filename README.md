@@ -42,7 +42,7 @@ This tutorial provides a technical overview of the necessary conditions and inst
 <img src="https://static.wixstatic.com/media/2ebf04_46fec3f74ebb4eaf803cb5cb612c6939~mv2.png" height="80%" width="80%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-1. Create a resource group within Azure and name it “RG-osTicket.”
+Step 1: Create a resource group in Azure and name it "RG-osTicket."
 </p>
 <br />
 
@@ -51,7 +51,7 @@ This tutorial provides a technical overview of the necessary conditions and inst
 <img src="https://static.wixstatic.com/media/2ebf04_77387910fc1a4be8b67ed724302d2e44~mv2.png" height="80%" width="80%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-2. Create a virtual machine and choose “RG-osTicket” as the resource group and Windows 10 Pro, Version 21H2 as the image.
+Step 2: Create a virtual machine and select "RG-osTicket" as the resource group and "Windows 10 Pro, Version 21H2" as the image.
 </p>
 <br />
 
@@ -60,7 +60,7 @@ This tutorial provides a technical overview of the necessary conditions and inst
 <img src="https://static.wixstatic.com/media/2ebf04_05b52ea6778e40a090e17941939c969b~mv2.png" height="80%" width="80%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-3. Remote Desktop Connection into the virtual machine (VM) via the VM’s public IP Address.
+Step 3: Use the Remote Desktop Connection to connect to the virtual machine (VM) using its public IP address.
 </p>
 <br />
 
@@ -69,7 +69,7 @@ This tutorial provides a technical overview of the necessary conditions and inst
 <img src="https://static.wixstatic.com/media/2ebf04_30bd0a8b94a14c9d8f1daa8eabefbf05~mv2.png" height="80%" width="80%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-4. Go to “Turn Windows Features on or off” in the control panel menu.
+Step 4: Navigate to "Turn Windows Features on or off" in the Control Panel menu.
 </p>
 <br />
 
@@ -81,7 +81,7 @@ This tutorial provides a technical overview of the necessary conditions and inst
 <img src="https://static.wixstatic.com/media/2ebf04_a6e5746c3bc44b529b5663237726fe20~mv2.png" height="80%" width="80%" alt="osTicket: Prerequisites and Installation">
 </p>
 <p>
-5. Enable Internet Information Services (IIS) and CGI.
+Step 5: Enable Internet Information Services (IIS) and CGI.
 </p>
 <br />
 
@@ -93,7 +93,7 @@ This tutorial provides a technical overview of the necessary conditions and inst
 <img src="https://static.wixstatic.com/media/2ebf04_ef74369fcc68481b9d6a42c04ba21362~mv2.png" height="50%" width="50%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-6. Download and Install PHP Manager For IIS version 1.5.0 by going to https://iis.net/downloads/community/2018/05/php-manager-150-for-iis-10. 
+Step 6 – Download and install PHP Manager For IIS by going to https://iis.net/downloads/community/2018/05/php-manager-150-for-iis-10. 
 </p>
 <br />
 
@@ -105,7 +105,7 @@ This tutorial provides a technical overview of the necessary conditions and inst
 <img src="https://static.wixstatic.com/media/2ebf04_6c6d0a55c7c24a81a52ed7cfa7fc9ea5~mv2.png" height="50%" width="50%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-7. Download and Install URL Rewrite Module 2.1 by going to https://iis.net/downloads/microsoft/url-rewrite.
+Step 7: Download and install URL Rewrite Module by going to https://iis.net/downloads/microsoft/url-rewrite.
 </p>
 <br />
 
@@ -114,7 +114,7 @@ This tutorial provides a technical overview of the necessary conditions and inst
 <img src="https://static.wixstatic.com/media/2ebf04_25e7ed24bf1d4740a44e24084ec46bea~mv2.png" height="80%" width="80%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-8. Go to the Local Disk (C:) and create a new folder called “PHP.”
+Step 8: Navigate to Local Disk (C:) and create a new folder named "PHP."
 </p>
 <br />
 
@@ -123,7 +123,7 @@ This tutorial provides a technical overview of the necessary conditions and inst
 <img src="https://static.wixstatic.com/media/2ebf04_a165a508089b4fc18ecc369532a80a4e~mv2.png" height="80%" width="80%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-9. Download PHP 7.4.33 by going to https://windows.php.net/downloads/release and click php-7.4.33-nts-Win32-vc15-x64.zip.
+Step 9: Download PHP by going to https://windows.php.net/download. 
 </p>
 <br />
 
@@ -132,7 +132,7 @@ This tutorial provides a technical overview of the necessary conditions and inst
 <img src="https://static.wixstatic.com/media/2ebf04_e1639b4d2eb04230b358191a83192074~mv2.png" height="50%" width="50%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-10. Extract PHP 7.4.33 into the PHP folder created in Local Disk (C:).
+Step 10: Unzip the downloaded PHP file into the "PHP" folder on Local Disk (C:).
 </p>
 <br />
 
@@ -144,7 +144,7 @@ This tutorial provides a technical overview of the necessary conditions and inst
 <img src="https://static.wixstatic.com/media/2ebf04_6157427428c14221a9e41ab4cd6745f1~mv2.png" height="50%" width="50%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-11. Download and Install Microsoft Visual C + + Redistributable by going to https://learn.microsoft.com/en-US/cpp/windows/lastest-supported-vc-redist?view=msvc-170, scroll down and click the link for the x86 version.
+Step 11: Download and install Microsoft Visual C + + Redistributable by going to https://learn.microsoft.com/en-US/cpp/windows/lastest-supported-vc-redist?view=msvc-170.
 </p>
 <br />
 
@@ -156,7 +156,7 @@ This tutorial provides a technical overview of the necessary conditions and inst
 <img src="https://static.wixstatic.com/media/2ebf04_414f33a46cc8409cbfd36e7c211617fb~mv2.png" height="50%" width="50%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-12. Download and Install MySQL 5.5.62 by going to https://downloads.mysql.com/archives/community/ and for product version choose 5.5.62 and download the 32-bit, MSI Installer.
+Step 12: Download and install MySQL by going to https://downloads.mysql.com/archives/community.
 </p>
 <br />
 
@@ -165,7 +165,7 @@ This tutorial provides a technical overview of the necessary conditions and inst
 <img src="https://static.wixstatic.com/media/2ebf04_5aef81d1038543ae87bf25a923554068~mv2.png" height="50%" width="50%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-13. Launch the MySQL Instance Configuration Wizard → choose “standard configuration” → Install as Windows Service → Enter a password under Modify Security Settings → Then click Execute.
+Step 13: Launch the MySQL Instance Configuration Wizard, select "standard configuration", install as Windows Service, set a password under "Modify Security Settings", and click "Execute."
 </p>
 <br />
 
@@ -174,7 +174,7 @@ This tutorial provides a technical overview of the necessary conditions and inst
 <img src="https://static.wixstatic.com/media/2ebf04_340541966fd747b68875c02bf744f56e~mv2.png" height="80%" width="80%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-14. Run Internet Information Services as an administrator and go to the PHP Manager.
+Step 14: Launch Internet Information Services as an administrator and navigate to the PHP Manager.
 </p>
 <br />
 
@@ -186,7 +186,7 @@ This tutorial provides a technical overview of the necessary conditions and inst
 <img src="https://static.wixstatic.com/media/2ebf04_670015e9b5b14932b4d9cea259ef32b3~mv2.png" height="80%" width="80%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-15. Click register new PHP version → Search for the PHP folder created in Local Disk (C:) and select the “php-cgi” file.
+Step 15: Click on "Register new PHP version" and locate the "php-cgi" file in the PHP folder that was created in the Local Disk (C:).
 </p>
 <br />
 
@@ -195,7 +195,7 @@ This tutorial provides a technical overview of the necessary conditions and inst
 <img src="https://static.wixstatic.com/media/2ebf04_ce7d6272c03f4f29a79c4253ff7795b1~mv2.png" height="80%" width="80%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-16. Go to https://osticket.com/download/ and download the latest version of osTicket and extract the folder.
+Step 16: Download and extract the latest version of osTicket from https://osticket.com/download. 
 </p>
 <br />
 
@@ -204,7 +204,7 @@ This tutorial provides a technical overview of the necessary conditions and inst
 <img src="https://static.wixstatic.com/media/2ebf04_2bd2b51d008640c98bb891c114fa4cb0~mv2.png" height="80%" width="80%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-17. Open the “osTicket” folder and drag the “upload folder” to the “wwwroot” folder found by going to the Local Disk (C:) → “inetpub” folder → wwwroot.
+Step 17: Open the "osTicket" folder and move the "upload folder" to the "wwwroot" folder in the "inetpub" folder of the Local Disk (C:).
 </p>
 <br />
 
@@ -213,7 +213,7 @@ This tutorial provides a technical overview of the necessary conditions and inst
 <img src="https://static.wixstatic.com/media/2ebf04_81d6cf73e1904ae9bc188f4619b99155~mv2.png" height="80%" width="80%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-18. Rename the “upload folder” to “osTicket.”
+Step 18: Rename the "upload" folder to "osTicket."
 </p>
 <br />
 
@@ -222,7 +222,7 @@ This tutorial provides a technical overview of the necessary conditions and inst
 <img src="https://static.wixstatic.com/media/2ebf04_aed8427d753b4b949e06064446aaab2a~mv2.png" height="80%" width="80%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-19. Go back to the PHP Manager and click “Enable or disable an extension.”
+Step 19: Return to the PHP Manager and select "Enable or disable an extension."
 </p>
 <br />
 
@@ -231,10 +231,10 @@ This tutorial provides a technical overview of the necessary conditions and inst
 <img src="https://static.wixstatic.com/media/2ebf04_39102b9e179446a4a774f5c635f3b6c1~mv2.png" height="80%" width="80%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-20. Enable the following extension:
--php_imap.dll
--php_opcache.dll
--php_intl.dll
+Step 20: Enable the following extensions in the PHP Manager:
+- php_imap.dll
+- php_opcache.dll
+- php_intl.dll
 </p>
 <br />
 
@@ -243,7 +243,7 @@ This tutorial provides a technical overview of the necessary conditions and inst
 <img src="https://static.wixstatic.com/media/2ebf04_6a8804c0450143969a82028bc0a0d38f~mv2.png" height="80%" width="80%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-21. Go to the osTicket folder in wwwroot → Then click the “include” folder → Find and rename ost-sampleconfig.php file to ost-config.php.
+Step 21: Navigate to the osTicket folder located in the wwwroot directory, open the "include" folder, and rename the file "ost-sampleconfig.php" to "ost-config.php."
 </p>
 <br />
 
@@ -252,7 +252,7 @@ This tutorial provides a technical overview of the necessary conditions and inst
 <img src="https://static.wixstatic.com/media/2ebf04_22b6dbd0f8c24dfe964a170eaeb3c92b~mv2.png" height="80%" width="80%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-22. Right-click on ost-config.php → Properties → Security → Advanced → Click “Disable Inheritance.”
+Step 22: Open the Properties of ost-config.php by right-clicking on it. Then, go to the Security tab and click on Advanced. Finally, click on "Disable Inheritance."
 </p>
 <br />
 
@@ -261,7 +261,7 @@ This tutorial provides a technical overview of the necessary conditions and inst
 <img src="https://static.wixstatic.com/media/2ebf04_9f38a1f78c5f45c2806ac0024152a676~mv2.png" height="80%" width="80%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-23. Click add → Select principle → Type “everyone” and allow all basic permissions.
+Step 23: Click on "add", select "principle", type "everyone" and allow all basic permissions.
 </p>
 <br />
 
@@ -270,7 +270,7 @@ This tutorial provides a technical overview of the necessary conditions and inst
 <img src="https://static.wixstatic.com/media/2ebf04_f237c60e1dcb4ef49957ef886aa6e54d~mv2.png" height="80%" width="80%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-24. Open Microsoft Edge and go to https://localhost/osTicket/setup/ and click continue at the bottom.
+Step 24: Launch Microsoft Edge and navigate to https://localhost/osTicket/setup. Then, click on the "Continue" button located at the bottom of the page.
 </p>
 <br />
 
@@ -279,7 +279,7 @@ This tutorial provides a technical overview of the necessary conditions and inst
 <img src="https://static.wixstatic.com/media/2ebf04_5d2927f74cf44a24b9fed7eddeae24a9~mv2.png" height="80%" width="80%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-25. Fill out all the “System” and “Admin User” settings.
+Step 25: Complete all the required fields for the "System" and "Admin User" settings.
 </p>
 <br />
 
@@ -288,7 +288,7 @@ This tutorial provides a technical overview of the necessary conditions and inst
 <img src="https://static.wixstatic.com/media/2ebf04_373f0f0c369c46d692ca831b96a0c5db~mv2.png" height="50%" width="50%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-26. Download and Install HeidiSQL by going to https://heidisql.com/instalers/HeidiSQL_12.3.0.6589_setup.exe.
+Step 26: Download and install HeidiSQL by going to https://heidisql.com/instalers/HeidiSQL_12.3.0.6589_setup.exe.
 </p>
 <br />
 
@@ -297,7 +297,7 @@ This tutorial provides a technical overview of the necessary conditions and inst
 <img src="https://static.wixstatic.com/media/2ebf04_6d062cc7beeb45a5bdcdbc8a377af580~mv2.png" height="50%" width="50%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-27. Launch HeidiSQL → Click new and enter in the password we created earlier for root and click open. 
+Step 27: Launch HeidiSQL, then click on "New" and enter the password for the root account that was set up earlier. Finally, click on "Open" to proceed.
 </p>
 <br />
 
@@ -306,7 +306,7 @@ This tutorial provides a technical overview of the necessary conditions and inst
 <img src="https://static.wixstatic.com/media/2ebf04_b589fb61255f4778b73871ffb880c6b5~mv2.png" height="80%" width="80%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-28. Right-Click on HeidiSQL → Create new → Database and for the name type “osTicket.”
+Step 28: Create a new database in HeidiSQL by right-clicking and selecting "Create new", then entering "osTicket" as the name.
 </p>
 <br />
 
@@ -315,7 +315,7 @@ This tutorial provides a technical overview of the necessary conditions and inst
 <img src="https://static.wixstatic.com/media/2ebf04_6cde76f0469745879219224cb9299254~mv2.png" height="80%" width="80%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-29. Go back to osTicket in Microsoft Edge to finish the “Database Settings” section and fill out the rest of the information and click Install now.
+Step 29: Return to the osTicket setup page in Microsoft Edge and complete the remaining fields in the "Database Settings" section. After filling in all the required information, click on the "Install now" button.
 </p>
 <br />
 
@@ -324,7 +324,7 @@ This tutorial provides a technical overview of the necessary conditions and inst
 <img src="https://static.wixstatic.com/media/2ebf04_c05d50a19517450fac1b13f62d2e500c~mv2.png" height="80%" width="80%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-30. Go back to wwwroot folder → osTicket and delete the setup folder.
+Step 30: Navigate back to the "wwwroot" folder and locate the "osTicket" folder. Delete the "setup" folder.
 </p>
 <br />
 
@@ -333,10 +333,7 @@ This tutorial provides a technical overview of the necessary conditions and inst
 <img src="https://static.wixstatic.com/media/2ebf04_656ded18f71e452cac05d4d2b4dc12ab~mv2.png" height="80%" width="80%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-31. Click the include folder and go down to ost-config.php → Properties → Security → Advanced → and edit the basic permissions by removing:
-- Full Control
-- Modify
-- Write
+Step 31 - Access the include folder in osTicket, then navigate to ost-config.php. Right-click on ost-config.php, select Properties, then Security, Advanced, and modify the basic permissions by removing Full Control, Modify, and Write.
 </p>
 <br />
 
@@ -345,7 +342,7 @@ This tutorial provides a technical overview of the necessary conditions and inst
 <img src="https://static.wixstatic.com/media/2ebf04_8e7f7b6aece0475f8c5a5443207fd7d2~mv2.png" height="80%" width="80%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-32. Go to https://localhost/osTicket/scp/login.php and login.
+Step 32: Log in to https://localhost/osTicket/scp/login.php.
 </p>
 <br />
 
@@ -354,9 +351,10 @@ This tutorial provides a technical overview of the necessary conditions and inst
 <img src="https://static.wixstatic.com/media/2ebf04_5f95f05113564d6ebf9f4615d146d2ce~mv2.png" height="80%" width="80%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-33. We should this page if everything was installed correctly. :)
+Step 33: If everything was installed correctly, we should see this page.
 </p>
 <br />
+
 <p align="center"><b><i>🙌💥People may hear your words, but they feel your attitude. ~ John C. Maxwell🙌💥</b></i></p>
 <p align="right"> Next up, <a href="https://github.com/stevennocent/post-install-config"
 >osTicket: Post-Installation Configuration</a></p>
