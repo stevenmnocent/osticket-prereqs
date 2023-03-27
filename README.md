@@ -123,7 +123,7 @@ Step 8: Navigate to Local Disk (C:) and create a new folder named "PHP."
 <img src="https://static.wixstatic.com/media/2ebf04_a165a508089b4fc18ecc369532a80a4e~mv2.png" height="80%" width="80%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-Step 9: Download <a href="https://windows.php.net/download">PHP:</a>Hypertext Preprocessor. 
+Step 9: Download <a href="https://windows.php.net/download">PHP:</a> Hypertext Preprocessor. 
 </p>
 <br />
 
