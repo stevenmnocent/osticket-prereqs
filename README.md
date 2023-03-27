@@ -144,7 +144,7 @@ Step 10: Unzip the downloaded PHP file into the "PHP" folder on Local Disk (C:).
 <img src="https://static.wixstatic.com/media/2ebf04_6157427428c14221a9e41ab4cd6745f1~mv2.png" height="50%" width="50%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-Step 11: Download and install <a href="https://learn.microsoft.com/en-US/cpp/windows/lastest-supported-vc-redist?view=msvc-170">Microsoft Visual C + + Redistributable</a>.
+Step 11: Download and install <a href="https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170">Microsoft Visual C + + Redistributable</a>.
 </p>
 <br />
 
