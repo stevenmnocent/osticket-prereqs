@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial provides a technical overview of the necessary conditions and installation procedures for deploying osTicket, an open-source platform for managing and resolving help desk support tickets.<br />
+This tutorial provides an overview of the necessary prerequisites and installation procedures for deploying osTicket, an open-source platform for managing and resolving help desk support tickets.<br />
 
 
 <h2>Video Demonstration</h2>
