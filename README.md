@@ -26,7 +26,7 @@ This tutorial provides a technical overview of the necessary conditions and inst
 - MySQL 5.5.62
 - HeidiSQL
 
-<h2>Operating Systems Used </h2>
+<h2>Operating System Used </h2>
 
 - Windows 10</b> (21H2)
 
