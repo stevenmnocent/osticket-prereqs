@@ -10,6 +10,9 @@ This tutorial provides a technical overview of the necessary conditions and inst
 
 - ### [YouTube: How To Install osTicket with Prerequisites](https://youtu.be/dEvGaxOgqf0)
 
+[![YouTube](https://static.wixstatic.com/media/2ebf04_d73739cd053d4595b1632b44d846170b~mv2.png)](https://youtu.be/dEvGaxOgqf0)
+</p>
+
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
