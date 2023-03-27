@@ -355,6 +355,7 @@ Step 33: If everything was installed correctly, we should see this page.
 </p>
 <br />
 
-<p align="center"><b><i>🙌💥People may hear your words, but they feel your attitude. ~ John C. Maxwell🙌💥</b></i></p>
-<p align="right"> Next up, <a href="https://github.com/stevennocent/post-install-config"
+<p align="center"><b><i>🧠Being a student is easy. Learning requires actual work. ~ William Crawford👨🏿‍🏫</b></i></p>
+<br />
+<p align="right"> Next: <a href="https://github.com/stevenmnocent/post-install-config"
 >osTicket: Post-Installation Configuration</a></p>
