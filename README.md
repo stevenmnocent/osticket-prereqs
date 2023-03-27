@@ -333,7 +333,7 @@ Step 30: Navigate back to the "wwwroot" folder and locate the "osTicket" folder.
 <img src="https://static.wixstatic.com/media/2ebf04_656ded18f71e452cac05d4d2b4dc12ab~mv2.png" height="80%" width="80%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-Step 31 - Access the include folder in osTicket, then navigate to ost-config.php. Right-click on ost-config.php, select Properties, then Security, Advanced, and modify the basic permissions by removing Full Control, Modify, and Write.
+Step 31: Access the include folder in osTicket, then navigate to ost-config.php. Right-click on ost-config.php, select Properties, then Security, Advanced, and modify the basic permissions by removing Full Control, Modify, and Write.
 </p>
 <br />
 
