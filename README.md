@@ -93,7 +93,7 @@ Step 5: Enable Internet Information Services (IIS) and CGI.
 <img src="https://static.wixstatic.com/media/2ebf04_ef74369fcc68481b9d6a42c04ba21362~mv2.png" height="50%" width="50%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-Step 6 – Download and install PHP Manager For IIS by going to https://iis.net/downloads/community/2018/05/php-manager-150-for-iis-10. 
+Step 6: Download and install PHP Manager For IIS by going to https://iis.net/downloads/community/2018/05/php-manager-150-for-iis-10. 
 </p>
 <br />
 
