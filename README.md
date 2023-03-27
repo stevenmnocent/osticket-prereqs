@@ -93,7 +93,7 @@ Step 5: Enable Internet Information Services (IIS) and CGI.
 <img src="https://static.wixstatic.com/media/2ebf04_ef74369fcc68481b9d6a42c04ba21362~mv2.png" height="50%" width="50%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-Step 6: Download and install PHP Manager For IIS by going to https://iis.net/downloads/community/2018/05/php-manager-150-for-iis-10. 
+Step 6: Download and install <a href="https://iis.net/downloads/community/2018/05/php-manager-150-for-iis-10">PHP Manager For IIS</a>. 
 </p>
 <br />
 
@@ -105,7 +105,7 @@ Step 6: Download and install PHP Manager For IIS by going to https://iis.net/dow
 <img src="https://static.wixstatic.com/media/2ebf04_6c6d0a55c7c24a81a52ed7cfa7fc9ea5~mv2.png" height="50%" width="50%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-Step 7: Download and install URL Rewrite Module by going to https://iis.net/downloads/microsoft/url-rewrite.
+Step 7: Download and install <a href="https://iis.net/downloads/microsoft/url-rewrite">URL Rewrite Module</a>.
 </p>
 <br />
 
@@ -123,7 +123,7 @@ Step 8: Navigate to Local Disk (C:) and create a new folder named "PHP."
 <img src="https://static.wixstatic.com/media/2ebf04_a165a508089b4fc18ecc369532a80a4e~mv2.png" height="80%" width="80%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-Step 9: Download PHP by going to https://windows.php.net/download. 
+Step 9: Download <a href="https://windows.php.net/download">PHP:</a>Hypertext Preprocessor. 
 </p>
 <br />
 
@@ -144,7 +144,7 @@ Step 10: Unzip the downloaded PHP file into the "PHP" folder on Local Disk (C:).
 <img src="https://static.wixstatic.com/media/2ebf04_6157427428c14221a9e41ab4cd6745f1~mv2.png" height="50%" width="50%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-Step 11: Download and install Microsoft Visual C + + Redistributable by going to https://learn.microsoft.com/en-US/cpp/windows/lastest-supported-vc-redist?view=msvc-170.
+Step 11: Download and install <a href="https://learn.microsoft.com/en-US/cpp/windows/lastest-supported-vc-redist?view=msvc-170">Microsoft Visual C + + Redistributable</a>.
 </p>
 <br />
 
@@ -156,7 +156,7 @@ Step 11: Download and install Microsoft Visual C + + Redistributable by going to
 <img src="https://static.wixstatic.com/media/2ebf04_414f33a46cc8409cbfd36e7c211617fb~mv2.png" height="50%" width="50%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-Step 12: Download and install MySQL by going to https://downloads.mysql.com/archives/community.
+Step 12: Download and install <a href="https://downloads.mysql.com/archives/community">MySQL</a>.
 </p>
 <br />
 
@@ -195,7 +195,7 @@ Step 15: Click on "Register new PHP version" and locate the "php-cgi" file in th
 <img src="https://static.wixstatic.com/media/2ebf04_ce7d6272c03f4f29a79c4253ff7795b1~mv2.png" height="80%" width="80%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-Step 16: Download and extract the latest version of osTicket from https://osticket.com/download. 
+Step 16: Download and extract the latest version of <a href="https://osticket.com/download">osTicket</a>.
 </p>
 <br />
 
@@ -288,7 +288,7 @@ Step 25: Complete all the required fields for the "System" and "Admin User" sett
 <img src="https://static.wixstatic.com/media/2ebf04_373f0f0c369c46d692ca831b96a0c5db~mv2.png" height="50%" width="50%" alt="osTicket: Prerequisites and Installation"/>
 </p>
 <p>
-Step 26: Download and install HeidiSQL by going to https://heidisql.com/instalers/HeidiSQL_12.3.0.6589_setup.exe.
+Step 26: Download and install <a href="https://heidisql.com/instalers/HeidiSQL_12.3.0.6589_setup.exe">HeidiSQL</a>.
 </p>
 <br />
 
