@@ -25,11 +25,15 @@ This tutorial provides a technical overview of the necessary conditions and inst
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Enable Internet Information Services (IIS) and CGI.
+- Install PHP Manager for IIS.
+- Install URL Rewrite Module.
+- Extract PHP into a new folder on Local Disk (C:) and register it in IIS.
+- Install Microsoft Visual C++ Redistributable.
+- Install MySQL and set up a password for root.
+- Extract osTicket into the wwwroot folder.
+- Enable php_imap.dll, php_opcache.dll, and php_intl.dll in IIS.
+- Install HeidiSQL and create a new database.
 
 <h2>Installation Steps</h2>
 
